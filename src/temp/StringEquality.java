@@ -20,16 +20,18 @@ public class StringEquality {
 		///System.out.println(“Zulu” and “Albatross”);
 		//System.out.println(“Market” and “market”); 
 		
-		public static void compareStrings(String one, String two) {
-			if (one.compareTo(two) < 0) {
-				System.out.println(one + " is less than " + two);
-			} else if (one.compareTo(two) > 0) {
-				System.out.println(one + " is more than " + two);
-			} else {
-				System.out.println(one + " is equal to " + two);
-			}
-		}
 		
+		
+	}
+	
+	public static void compareStrings(String one, String two) {
+		if (one.compareTo(two) < 0) {
+			System.out.println(one + " is less than " + two);
+		} else if (one.compareTo(two) > 0) {
+			System.out.println(one + " is more than " + two);
+		} else {
+			System.out.println(one + " is equal to " + two);
+		}
 	}
 
 }
