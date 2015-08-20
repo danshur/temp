@@ -3,25 +3,18 @@ package temp;
 public class StringEquality {
 
 	public static void main(String[] args) {
-		String result = "";
+		//String result = "";
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < args.length; i++) {
 			sb.append(args[i]);
 		}
-		result = sb.toString();
-		//compareStreings(“200”, “30”);
+		//result = sb.toString();
 		
-		//String a = "200";
-		//String b = "30";
-		
-		
-		//System.out.println(“200”.compareTo(“30”));
-		//System.out.println(“400” and “40”);
-		///System.out.println(“Zulu” and “Albatross”);
-		//System.out.println(“Market” and “market”); 
-		
-		
-		
+		StringEquality.compareStrings("200", "30");		
+		StringEquality.compareStrings("400", "40");
+		StringEquality.compareStrings("Zulu", "Albatross");
+		StringEquality.compareStrings("Market", "market");
+
 	}
 	
 	public static void compareStrings(String one, String two) {

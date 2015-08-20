@@ -12,15 +12,18 @@ public class Unit2 {
 		int b = 2;
 		int c = a-- + b;*/
 		
-		public static Boolean booleanTest(x) { 
-			boolean one = true;
-			boolean two = false;
-			boolean three = one & two;
-			//return three;
-		}		
+		Unit2.booleanTest();	
 		
-		System.out.println(booleanTest.x);
+		
 
 	}
+	
+	public static void booleanTest() { 
+		boolean one = true;
+		boolean two = false;
+		boolean three = one & two;
+		//return three;
+		System.out.println(three);
+	}	
 
 }
