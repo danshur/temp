@@ -8,7 +8,7 @@ public class Unit4_1 {
 		//System.out.println(  );
 		//Unit4_1.q1();
 		//Unit4_1.q2();
-		//Unit4_1.q3();
+		Unit4_1.q3();
 		//Unit4_1.q4();
 		//Unit4_1.areStringsEqual("true", null); //== to compare objects
 		//Unit4_1.q6(); //didnt work by 3 is right
@@ -17,7 +17,7 @@ public class Unit4_1 {
 				{
 						"john", "jane", "sally", "spot"
 				}; 
-		Unit4_1.concatenate(names); //It works, I dont get it
+		//Unit4_1.concatenate(names); //It works, I dont get it
 		//System.out.println(Arrays.toString(names));
 		
 		//Unit4_1.q9();
@@ -45,7 +45,7 @@ public class Unit4_1 {
 		    result.append(array[i]);
 		    //result.append(array[i++]);
 		  }
-		  System.out.println(result);
+		  System.out.println(result.toString());
 		  return result.toString();
 		}
 	
