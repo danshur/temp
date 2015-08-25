@@ -8,7 +8,7 @@ public class Unit4_1 {
 		//System.out.println(  );
 		//Unit4_1.q1();
 		//Unit4_1.q2();
-		Unit4_1.q3();
+		//Unit4_1.q3();
 		//Unit4_1.q4();
 		//Unit4_1.areStringsEqual("true", null); //== to compare objects
 		//Unit4_1.q6(); //didnt work by 3 is right
@@ -20,7 +20,7 @@ public class Unit4_1 {
 		//Unit4_1.concatenate(names); //It works, I dont get it
 		//System.out.println(Arrays.toString(names));
 		
-		//Unit4_1.q9();
+		Unit4_1.q9();
 	}
 	
 	private static void q9() {

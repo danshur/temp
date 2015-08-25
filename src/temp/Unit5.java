@@ -12,8 +12,11 @@ public class Unit5 {
 	}
 
 	private static void methodTwo() {
-		// TODO Auto-generated method stub
-		
+		int counter = 1;
+		for (int i = 0; i < 20; i++ ) {
+			if ((i % 2) == 0)
+			System.out.println("Number " + counter++ + " w modulo = " + i);
+		}			
 	}
 
 	private static void methodOne() {
