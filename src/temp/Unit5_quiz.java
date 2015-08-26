@@ -12,8 +12,54 @@ public class Unit5_quiz {
 		System.out.println("");
 		q5();
 		System.out.println(q6("dan"));
-		q7();
+		//q7();
+		//q9();
+			int number = 2;
+			int result = test(number);
+			System.out.println(result);
+		//q10
+		System.out.println(power(2));
 	}
+	//q10
+	public static double power(double number) {
+		  if (number == 0) {
+		    return 0;
+		  }
+		  if (number == 1) {
+		    return 1;
+		  }
+		  return number * number;
+	}
+
+	
+	//q9
+		public static int test(String name) {
+		  return 1;
+		}
+		public static int test(int value) {
+		  return 2;
+		}
+		public static int test(boolean isTrue) {
+		  return 3;
+		}
+		public static int test(double number) {
+		  return 4;
+		}
+		//q9 end
+
+	//private static void q7() {
+		public static int q7() {
+			  for (int i = 0; i<3; i++) {
+			    System.out.print(i + " ");
+			    if (i == 1) {
+			      return i;
+			    }
+			  }
+			  //System.out.print("done");
+			return 0;
+			}
+		
+	//}
 
 	private static String q6(String name) {
 		//public static String sayHello(String name) {
