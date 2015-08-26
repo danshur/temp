@@ -11,8 +11,8 @@ public class Unit5_quiz {
 		q4();
 		System.out.println("");
 		q5();
-		System.out.println(q6("dan");
-
+		System.out.println(q6("dan"));
+		q7();
 	}
 
 	private static String q6(String name) {
@@ -21,6 +21,7 @@ public class Unit5_quiz {
 		  //}
 	}
 
+		
 	private static void q5() {
 		/*
 		 * Which statement about class methods is false?
