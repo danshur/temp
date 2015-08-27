@@ -12,7 +12,7 @@ public class Unit5_quiz {
 		System.out.println("");
 		q5();
 		System.out.println(q6("dan"));
-		//q7();
+		q7();
 		//q9();
 			int number = 2;
 			int result = test(number);
