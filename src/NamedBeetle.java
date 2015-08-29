@@ -1,4 +1,4 @@
-package temp;
+
 
 public class NamedBeetle {
 
@@ -7,9 +7,9 @@ public class NamedBeetle {
 	
 	
 
-	public void sayname(int i, int j) {
+	public void printMove(int i, int j) {
 		// TODO Auto-generated method stub
-		System.out.println("moved " + i + i);
+		System.out.println("moved " + i + " and " + i);
 	}
 
 }
