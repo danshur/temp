@@ -5,7 +5,8 @@ public class TestNamedBeetle {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		NamedBeetle ed = new NamedBeetle();
-		ed.printMove(1, 1);
+		ed.makeCircle(50);
+		
 	}
 
 }
